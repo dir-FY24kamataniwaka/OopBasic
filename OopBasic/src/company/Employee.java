@@ -17,7 +17,7 @@ public class Employee {
     
     //報告メソッド
     public void report(int times) {
-        System.out.println(times + "回目の報告をします。役職： " + position + "、名前" + name);
+        System.out.println(times + "回目の報告をします。役職:" + position + "、名前:" + name);
     }
     
     //報告メソッド（オーバーロード）
@@ -28,6 +28,6 @@ public class Employee {
     //会議に参加するメソッド
     public void joinMeeting() {
         department.meeting();
-        System.out.println("→上記の会議に参加します。部署：" + department.getName() +"名前" +name);
+        System.out.println("→上記の会議に参加します。部署:" + department.getName() + "名前:" +name);
     }
 }
